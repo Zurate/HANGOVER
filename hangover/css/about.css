@@ -1,0 +1,200 @@
+@font-face{
+	font-family: MyFont_1;
+	src: url('..font/bpg_nino_mtavruli_bold.ttf')
+}
+h1,h2,h3, h4,h5, p,a,li,ul,i{
+	font-family:MyFont_1;
+}
+
+
+/*start header navbar here*/
+
+.header_icon{
+	font-size: 18px;
+    color: #54d0dd;
+    
+}
+.navbar-brand{
+	color:#ffeb3b!important;
+}
+.nav-link{
+	color:#ffeb3b !important ;
+}
+.nav-link:hover{
+   color:#009688 !important;
+}
+.home_color{
+	color:#54d0dd !important;
+}
+
+
+.header_img{
+	background: url(../image/head.jpg);
+	background-repeat:repeat;
+	background-size:cover;
+	
+	height: 700px;
+}
+
+#Progress{
+	height:0;
+	transition: 2s;
+}
+.show{
+	height:250px !important;
+}
+
+
+
+/*end header navbar here*/
+
+
+/*start header img here*/
+.header_img_title{
+	color: white;
+	text-align: center;
+	padding-top: 250px;
+    padding-bottom: 200px;
+}
+.header_img_title h1{
+	color:red;
+    font-size:55px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.header_img_title p{
+	color: rgba(255,255,255,0.8);
+    font-size: 22px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.btn_1{
+	 color: black;
+	 background-color: #54d0dd;
+	 padding: 14px 20px;
+	 margin: 0;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+.btn_1:hover{
+	background-color:#9e9e9ed9;
+	color: #54d0dd;
+}
+.header_img_title a{
+	text-decoration: none;
+}
+
+/*end header img here*/
+
+
+
+
+/*start background_img area here*/
+.parent{
+	background-image: url(../image/gallery/photo-3.jpg);
+   background-attachment: fixed;
+	
+	
+	background-repeat: no-repeat;
+	height: 170vh;
+}
+
+.parent h2{
+	text-align: center;
+	padding: 25px;
+	color:#ffeb3b;
+	font-size: 40px;
+}
+ .parent p{
+float:right;
+width:47%;
+padding: 50px;
+font-size: 18px;
+color: grey;
+white-space:normal;
+}
+
+.parent img{
+	width:49%;
+
+}
+
+.parent{
+	
+	overflow:hidden;
+}
+
+
+.image_2{
+	float:right;
+width:47%;
+
+}
+.sec_color{
+	background-color:rgba(127,220,230,1);
+}
+
+
+
+.hangover_text{
+	background-color: white;
+	font-style: italic;
+}
+
+
+
+
+
+/*start footer area here*/
+
+.footer_1{
+	background-color:#000000bd;
+
+}
+
+.footer_nav{
+	padding-top: 40px;
+}
+.input_1{
+	width:300px !important;
+}
+
+.footer_1 li{
+	color:#ffffffab;
+}
+.footer_1 li{
+	list-style-type: none;
+
+}
+.footer_ul{
+	padding-top: 35px;
+}
+.footer_ul li:hover{
+	color: rgba(127,220,230,1);
+	cursor: pointer;
+}
+.copyright_1{
+	padding-top: 20px;
+	color: #ffffffab;
+	text-align: center;
+}
+
+.hr_color{
+	background-color:rgba(127,220,230,1);
+}
+
+
+/*end footer area here*/
+
+
+  /*------start media ...-----*/
+@media screen and (max-width:768px){
+
+
+ .parent p{
+  width: 100%;
+}
+
+
+
+}
